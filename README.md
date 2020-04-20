@@ -86,7 +86,8 @@ After cleaning the data, examining viewing correlations,  and determining that t
 
 ## Conclusion and Future work
 
-In our final model, we achieved an adjusted r-squared value of 85% using a Ridge Regression.  Using the evaluation metric mean absolute error, we were able to pedict the price of a home within roughly $100,000. Although not excellent, the result was adequate.  In the future, we would like to explore using other models such as the Lasso Regression or a Neural Network. 
+In the final model, I achieved an adjusted r-squared value of 32 % using a Linear Regression.  Using the evaluation metric mean absolute error, I was able to pedict the the age of death within 9 years of the actual death. The most significant features were marital status, occupation status, highest qualification.  People who were married, had a job (agricultural, techical or other), and were more educated tended to live longer.  Considerations for the future are to explore what could have led to the deaths of the people from the study and incorporate more continuous features.
 
-
-![](images/lrprediction.png)
+<p align="center">
+<img src="images/lrage.png" width="600">
+</p>
